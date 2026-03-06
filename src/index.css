@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  .resume-container {
+    @apply bg-white min-h-[11in] p-[0.5in] shadow-sm;
+  }
+  
+  .resume-container * {
+    @apply leading-relaxed;
+  }
+}
